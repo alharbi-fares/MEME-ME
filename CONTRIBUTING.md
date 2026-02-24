@@ -60,7 +60,7 @@ $ yarn link stainless-project1
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link -—global stainless-project1
+$ pnpm link --global stainless-project1
 ```
 
 ## Running tests
