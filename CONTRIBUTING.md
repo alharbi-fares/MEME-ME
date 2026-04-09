@@ -42,15 +42,15 @@ If you’d like to use the repository from source, you can either install from g
 To install via git:
 
 ```sh
-$ npm install git+ssh://git@github.com:stainless-sdks/stainless-project1-typescript.git
+$ npm install git+ssh://git@github.com:alharbi-fares/MEME-ME.git
 ```
 
 Alternatively, to link a local copy of the repo:
 
 ```sh
 # Clone
-$ git clone https://www.github.com/stainless-sdks/stainless-project1-typescript
-$ cd stainless-project1-typescript
+$ git clone https://www.github.com/alharbi-fares/MEME-ME
+$ cd MEME-ME
 
 # With yarn
 $ yarn link
@@ -60,16 +60,10 @@ $ yarn link stainless-project1
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link -—global stainless-project1
+$ pnpm link --global stainless-project1
 ```
 
 ## Running tests
-
-Most tests require you to [set up a mock server](https://github.com/stoplightio/prism) against the OpenAPI spec to run the tests.
-
-```sh
-$ npx prism mock path/to/your/openapi.yml
-```
 
 ```sh
 $ pnpm run test
